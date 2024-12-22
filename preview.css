@@ -93,10 +93,12 @@ body{
 
 .stats{
     gap: 1rem;
+    justify-content: space-between;
 }
 
-.stats-number, .stats-item{
+.stats-number{
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .text-content p{
@@ -129,6 +131,7 @@ body{
         flex-direction: column;
         gap: 2rem;
         font-size: var(--font-size);
+        text-align: center;
     }
 
     .stats-number{
@@ -138,4 +141,5 @@ body{
     h1, .desc{
         text-align: center;
     }
+
 }
